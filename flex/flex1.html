@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex1 Sergii Rallo</title>
+    <link rel="icon" href="../images/sergii-rallo.ico" type="image/x-icon">
+    <style>
+.container { 
+  display: flex;
+}
+.red {
+  background: orangered;
+  flex-grow: 1;
+}
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+  width: 40vw;
+}
+.container > div {
+  font-size: 5vw;
+  padding: .5em;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3
+            <p>Флекс-элементы могут увеличиваться и уменьшаться в зависимости от их содержимог</p>
+        </div>
+    </div>    
+    
+</body>
+</html>
